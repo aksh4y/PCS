@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "PCS", "PCS\PCS.vbproj", "{EBB41A2D-858E-4A02-8801-A220445D244F}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "PCS Setup", "..\..\PCS Setup\PCS Setup.vdproj", "{8EC3E6D3-74A1-4BBE-A178-258AF8A1DD8E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBB41A2D-858E-4A02-8801-A220445D244F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBB41A2D-858E-4A02-8801-A220445D244F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBB41A2D-858E-4A02-8801-A220445D244F}.Debug|x86.ActiveCfg = Debug|x86
+		{EBB41A2D-858E-4A02-8801-A220445D244F}.Debug|x86.Build.0 = Debug|x86
+		{EBB41A2D-858E-4A02-8801-A220445D244F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBB41A2D-858E-4A02-8801-A220445D244F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBB41A2D-858E-4A02-8801-A220445D244F}.Release|x86.ActiveCfg = Release|x86
+		{EBB41A2D-858E-4A02-8801-A220445D244F}.Release|x86.Build.0 = Release|x86
+		{8EC3E6D3-74A1-4BBE-A178-258AF8A1DD8E}.Debug|Any CPU.ActiveCfg = Debug
+		{8EC3E6D3-74A1-4BBE-A178-258AF8A1DD8E}.Debug|x86.ActiveCfg = Debug
+		{8EC3E6D3-74A1-4BBE-A178-258AF8A1DD8E}.Release|Any CPU.ActiveCfg = Release
+		{8EC3E6D3-74A1-4BBE-A178-258AF8A1DD8E}.Release|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

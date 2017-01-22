@@ -1,0 +1,389 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EBB41A2D-858E-4A02-8801-A220445D244F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>PCS.My.MyApplication</StartupObject>
+    <RootNamespace>PCS</RootNamespace>
+    <AssemblyName>PCS</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Akshay\Desktop\PCS\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ProductName>Police Control System</ProductName>
+    <PublisherName>Akshay Sadarangani</PublisherName>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>3</ApplicationRevision>
+    <ApplicationVersion>2.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>PCS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>PCS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>106B2C50A0D4D5E59B7E9D388041016AB8075D27</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>PCS_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>PCS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>PCS.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\Elite Soldier with Weapon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Oracle.DataAccess, Version=4.112.3.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=AMD64" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.vb" />
+    <Compile Include="CMSMainScreen.Designer.vb">
+      <DependentUpon>CMSMainScreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CMSMainScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CrimeDetails.Designer.vb">
+      <DependentUpon>CrimeDetails.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CrimeDetails.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Criminal Details.Designer.vb">
+      <DependentUpon>Criminal Details.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Criminal Details.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FileReport.Designer.vb">
+      <DependentUpon>FileReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FileReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="connecntion.Designer.vb">
+      <DependentUpon>connecntion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="connecntion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FIR.Designer.vb">
+      <DependentUpon>FIR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FIR.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FIRMainScreen.Designer.vb">
+      <DependentUpon>FIRMainScreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FIRMainScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FIRStat.Designer.vb">
+      <DependentUpon>FIRStat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FIRStat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard.Designer.vb">
+      <DependentUpon>Dashboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Db.Designer.vb">
+      <DependentUpon>Db.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Db.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="NewUserReg.Designer.vb">
+      <DependentUpon>NewUserReg.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NewUserReg.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewUserReqs.Designer.vb">
+      <DependentUpon>NewUserReqs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NewUserReqs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PMSMainScreen.Designer.vb">
+      <DependentUpon>PMSMainScreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PMSMainScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegisterCriminal.Designer.vb">
+      <DependentUpon>RegisterCriminal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RegisterCriminal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegisterPrisoner.Designer.vb">
+      <DependentUpon>RegisterPrisoner.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RegisterPrisoner.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Splash.Designer.vb">
+      <DependentUpon>Splash.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Splash.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestBLOB.Designer.vb">
+      <DependentUpon>TestBLOB.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TestBLOB.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CMSMainScreen.resx">
+      <DependentUpon>CMSMainScreen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrimeDetails.resx">
+      <DependentUpon>CrimeDetails.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Criminal Details.resx">
+      <DependentUpon>Criminal Details.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FileReport.resx">
+      <DependentUpon>FileReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="connecntion.resx">
+      <DependentUpon>connecntion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Db.resx">
+      <DependentUpon>Db.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FIR.resx">
+      <DependentUpon>FIR.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FIRMainScreen.resx">
+      <DependentUpon>FIRMainScreen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FIRStat.resx">
+      <DependentUpon>FIRStat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard.resx">
+      <DependentUpon>Dashboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewUserReg.resx">
+      <DependentUpon>NewUserReg.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewUserReqs.resx">
+      <DependentUpon>NewUserReqs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PMSMainScreen.resx">
+      <DependentUpon>PMSMainScreen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegisterCriminal.resx">
+      <DependentUpon>RegisterCriminal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegisterPrisoner.resx">
+      <DependentUpon>RegisterPrisoner.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Splash.resx">
+      <DependentUpon>Splash.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestBLOB.resx">
+      <DependentUpon>TestBLOB.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram2.cd" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Database1.sdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\Abstract-PalmHighRes.jpg" />
+    <Content Include="Resources\Elite Soldier with Weapon.ico" />
+    <None Include="Resources\image.jpeg" />
+    <None Include="PCS_TemporaryKey.pfx" />
+    <None Include="Resources\abstract-palm.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.SQL.Server.Compact.3.5">
+      <Visible>False</Visible>
+      <ProductName>SQL Server Compact 3.5 SP2</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

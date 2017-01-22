@@ -1,0 +1,8 @@
+I wasn't able to solve the problem regarding the oracle service name for different systems. 
+But I have made the code more flexible now and you just need to change the service name in the
+splash form instead of renaming in all the 24-25 forms. All other forms take the data string from
+the splash form directly or indirectly.
+Please rename the oralce service name in the connection string belonging to the splash screen and
+test the software.!!
+
+-Aki

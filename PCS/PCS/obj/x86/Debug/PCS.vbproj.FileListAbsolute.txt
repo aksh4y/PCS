@@ -1,0 +1,39 @@
+C:\Users\christ\AppData\Local\Temporary Projects\WindowsApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\christ\AppData\Local\Temporary Projects\WindowsApplication1\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\christ\AppData\Local\Temporary Projects\WindowsApplication1\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\christ\AppData\Local\Temporary Projects\WindowsApplication1\obj\x86\Debug\PCS.Form1.resources
+C:\Users\christ\AppData\Local\Temporary Projects\WindowsApplication1\obj\x86\Debug\PCS.Form2.resources
+C:\Users\christ\AppData\Local\Temporary Projects\WindowsApplication1\obj\x86\Debug\PCS.Login.resources
+C:\Users\christ\AppData\Local\Temporary Projects\WindowsApplication1\obj\x86\Debug\PCS.Resources.resources
+C:\Users\christ\AppData\Local\Temporary Projects\WindowsApplication1\bin\Debug\Police Control System.exe
+C:\Users\christ\AppData\Local\Temporary Projects\WindowsApplication1\bin\Debug\Police Control System.pdb
+C:\Users\christ\AppData\Local\Temporary Projects\WindowsApplication1\bin\Debug\Police Control System.xml
+C:\Users\christ\AppData\Local\Temporary Projects\WindowsApplication1\obj\x86\Debug\Police Control System.exe
+C:\Users\christ\AppData\Local\Temporary Projects\WindowsApplication1\obj\x86\Debug\Police Control System.xml
+C:\Users\christ\AppData\Local\Temporary Projects\WindowsApplication1\obj\x86\Debug\Police Control System.pdb
+E:\DBMS Project\pcs\PCS\PCS\bin\Debug\PCS.exe
+E:\DBMS Project\pcs\PCS\PCS\bin\Debug\PCS.pdb
+E:\DBMS Project\pcs\PCS\PCS\bin\Debug\PCS.xml
+E:\DBMS Project\pcs\PCS\PCS\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\DBMS Project\pcs\PCS\PCS\obj\x86\Debug\PCS.Login.resources
+E:\DBMS Project\pcs\PCS\PCS\obj\x86\Debug\PCS.Resources.resources
+E:\DBMS Project\pcs\PCS\PCS\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\DBMS Project\pcs\PCS\PCS\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\DBMS Project\pcs\PCS\PCS\obj\x86\Debug\PCS.exe
+E:\DBMS Project\pcs\PCS\PCS\obj\x86\Debug\PCS.xml
+E:\DBMS Project\pcs\PCS\PCS\obj\x86\Debug\PCS.pdb
+E:\DBMS Project\pcs\PCS\PCS\obj\x86\Debug\PCS.Db.resources
+E:\DBMS Project\pcs\PCS\PCS\bin\Debug\Oracle.DataAccess.dll
+E:\DBMS Project\pcs\PCS\PCS\bin\Debug\Database1.sdf
+E:\DBMS Project\pcs\PCS\PCS\obj\x86\Debug\PCS.Register.resources
+E:\DBMS Project\pcs\PCS\PCS\obj\x86\Debug\PCS.Dashboard.resources
+E:\DBMS Project\pcs\PCS\PCS\obj\x86\Debug\PCS.Splash.resources
+E:\DBMS Project\pcs\PCS\PCS\obj\x86\Debug\PCS.FIR.resources
+E:\DBMS Project\pcs\PCS\PCS\obj\x86\Debug\PCS.FIRStat.resources
+E:\DBMS Project\pcs\PCS\PCS\obj\x86\Debug\PCS.FIRMainScreen.resources
+E:\DBMS Project\pcs\PCS\PCS\obj\x86\Debug\PCS.ChargeSheet.resources
+E:\DBMS Project\pcs\PCS\PCS\bin\Debug\PCS.exe.manifest
+E:\DBMS Project\pcs\PCS\PCS\bin\Debug\PCS.application
+E:\DBMS Project\pcs\PCS\PCS\obj\x86\Debug\PCS.exe.manifest
+E:\DBMS Project\pcs\PCS\PCS\obj\x86\Debug\PCS.application
+E:\DBMS Project\pcs\PCS\PCS\obj\x86\Debug\PCS.Form1.resources

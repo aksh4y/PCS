@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "NewPCSSetup", "NewPCSSetup\NewPCSSetup.vdproj", "{2AC2D17F-906D-42ED-AEA1-37A5C2BD6A0B}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "PCS", "E:\PCS\PCS\PCS\PCS.vbproj", "{EBB41A2D-858E-4A02-8801-A220445D244F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2AC2D17F-906D-42ED-AEA1-37A5C2BD6A0B}.Debug|Any CPU.ActiveCfg = Debug
+		{2AC2D17F-906D-42ED-AEA1-37A5C2BD6A0B}.Debug|Any CPU.Build.0 = Debug
+		{2AC2D17F-906D-42ED-AEA1-37A5C2BD6A0B}.Debug|x86.ActiveCfg = Debug
+		{2AC2D17F-906D-42ED-AEA1-37A5C2BD6A0B}.Debug|x86.Build.0 = Debug
+		{2AC2D17F-906D-42ED-AEA1-37A5C2BD6A0B}.Release|Any CPU.ActiveCfg = Release
+		{2AC2D17F-906D-42ED-AEA1-37A5C2BD6A0B}.Release|Any CPU.Build.0 = Release
+		{2AC2D17F-906D-42ED-AEA1-37A5C2BD6A0B}.Release|x86.ActiveCfg = Release
+		{2AC2D17F-906D-42ED-AEA1-37A5C2BD6A0B}.Release|x86.Build.0 = Release
+		{EBB41A2D-858E-4A02-8801-A220445D244F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBB41A2D-858E-4A02-8801-A220445D244F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBB41A2D-858E-4A02-8801-A220445D244F}.Debug|x86.ActiveCfg = Debug|x86
+		{EBB41A2D-858E-4A02-8801-A220445D244F}.Debug|x86.Build.0 = Debug|x86
+		{EBB41A2D-858E-4A02-8801-A220445D244F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBB41A2D-858E-4A02-8801-A220445D244F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBB41A2D-858E-4A02-8801-A220445D244F}.Release|x86.ActiveCfg = Release|x86
+		{EBB41A2D-858E-4A02-8801-A220445D244F}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
